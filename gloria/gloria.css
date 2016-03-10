@@ -1,9 +1,9 @@
 .section4{
   position: relative;
   background-image: url(gloria_back.jpg);
-  font-size: 15px;
+  font-size:15px;
   font-family: 'Open Sans', sans-serif,'微软雅黑';
-  color: black ;
+  color: black;
   text-align: center;
 }
 .section4 a{
@@ -16,11 +16,11 @@
   text-decoration: none;
   text-align: center;
   color:black;
-  transform: scale(0.6);
-  transition: transform 0.5s;
+  -webkit-transform: scale(0.6);
+  -webkit-transition: transform 0.5s;
 }
 .section4 a:hover{
-  transform: scale(0.7);
+  -webkit-transform: scale(0.7);
 }
 .section4 p{
   margin-top: 15px;
@@ -68,10 +68,9 @@
   left:0;
   background-image: url(gloria_photo.jpg);
   border:5px solid white;
-  box-shadow:0 0 30px 10px black;
-  transform: scale(0.9);
+  -webkit-box-shadow:0 0 30px 10px black;
+  -webkit-transform: scale(0.9);
 }
-/* 引入 */
 .gloria_wrapper{
     margin: 50px auto;
     width: 900px;
@@ -117,16 +116,4 @@
     -webkit-transform: rotate(0deg)
                         translate(-45px,-20px)
                            skew(20deg);
-}
-
-
-.gloria_wrapper_ribbon{
-    position:absolute;
-    top:-25px; left: 30%;
-    width: 130px;
-    height: 40px;
-    background: -webkit-gradient(linear, 555% 20%, 0% 92%, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.0)), color-stop(.1,rgba(0, 0, 0, 0.2)));
-    border-left: 1px dashed rgba(0, 0, 0, 0.1);
-    border-right: 1px dashed rgba(0, 0, 0, 0.1);
-    -webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.2);
 }
