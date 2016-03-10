@@ -81,7 +81,9 @@ $(function(){
 				$(".section5 .person").animate({
 					left:'-200',
 					opacity:'0'
-				},1500,'easeOutExpo');
+				},1500,function(){
+					$(".section5 .gloria_wrapper").fadeOut(500);
+				});
 
 			}
 		}
