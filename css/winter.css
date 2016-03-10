@@ -1,0 +1,119 @@
+.section4{
+  position: relative;
+  background-image: url(../img/winter-back.jpg);
+  font-size:15px;
+  font-family: 'Open Sans', sans-serif,'微软雅黑';
+  color: black;
+  text-align: center;
+}
+.section4 a{
+  width:100px;
+  height:100px;
+  display:block;
+  float: left;
+  margin-right:66px;
+  font-size:30px;
+  text-decoration: none;
+  text-align: center;
+  color:black;
+  -webkit-transform: scale(0.6);
+  -webkit-transition: transform 0.5s;
+}
+.section4 a:hover{
+  -webkit-transform: scale(0.7);
+}
+.section4 p{
+  margin-top: 15px;
+  font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+  /*font: 15px/1.5 Tahoma,Helvetica,Arial,'宋体',sans-serif;*/
+  font-weight:bolder;
+  text-align: justify;
+  line-height:25px;
+}
+.section4 h4{
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 5px;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
+.commmon_height{
+  height:450px;
+}
+.gloria_left{
+  width:300px;
+  float: left;
+  position: relative;
+}
+.gloria_right{
+  width: 500px;
+  float:right;
+  position: relative;
+  /*background-color: rgba(255,255,255,0.5);*/
+}
+.gloria_right>.content{
+
+}
+.gloria_bottom{
+  height:150px;
+  clear: both;
+  position: relative;
+  padding:0 200px;
+}
+.gloria_photo{
+  width:300px;
+  height:400px;
+  position: absolute;
+  cursor: pointer;
+  top:0;
+  left:0;
+  background-image: url(../img/gloria_photo.jpg);
+  border:5px solid white;
+  -webkit-box-shadow:0 0 30px 10px black;
+  -webkit-transform: scale(0.9);
+}
+.gloria_wrapper{
+    margin: 50px auto;
+    width: 900px;
+    min-height: 510px;
+    padding: 10px;
+    position:relative;
+    background-image: url(../img/winter-content_back.jpg);
+    -webkit-border-bottom-right-radius: 60px 60px;
+    -webkit-box-shadow: 0 0 10px 10px  rgba(0, 0, 0,0.5);
+
+}
+.gloria_wrapper:before{
+    content:'';
+    width: 25px;
+    height: 20px;
+    background: white;
+    position: absolute;
+    bottom:0; right:0;
+    background: -webkit-gradient(linear, 0% 20%, 50% 40%, from(#fff), to( #eee), color-stop(.1,#fff));
+    -webkit-border-bottom-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    -webkit-box-shadow: -2px -2px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: -2px -2px 5px rgba(0, 0, 0, 0.3);
+    -webkit-transform: rotate(-20deg)
+                        skew(-40deg,-3deg)
+                        translate(-13px,-13px);
+                        transform: rotate(-20deg)
+                        skew(-40deg,-3deg)
+                        translate(-13px,-13px);
+}
+
+.gloria_wrapper:after{
+    content: '';
+    z-index: -1;
+    width: 100px;
+    height: 100px;
+    position:absolute;
+    bottom:0;
+    right:0;
+    background: rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    -webkit-box-shadow: 20px 20px 8px rgba(0, 0, 0, 0.2);
+    -webkit-transform: rotate(0deg)
+                        translate(-45px,-20px)
+                           skew(20deg);
+}
