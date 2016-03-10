@@ -26,11 +26,11 @@
 .section {
 	text-align: center;
 }
-.section2 p {
+.section3 p {
 	position:relative;
 	left:-120%;
 }
-.section3 p {
+.section4 p {
 	position:relative;
 	bottom:-120%;
 }

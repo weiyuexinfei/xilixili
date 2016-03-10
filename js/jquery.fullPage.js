@@ -467,7 +467,7 @@
 
 					activateMenuAndNav(destiny, null);
 
-					$.isFunction( options.afterLoad ) && options.afterLoad.call( this, destiny, (section.index('.fp-section') + 1));
+					$.isFunction( options.afterLoad ) && options.afterLoad.call( this, destiny, (section.index('.fp-section')+1));
 
 					//updating the active class
 					section.addClass('active').siblings().removeClass('active');
@@ -576,10 +576,10 @@
 				if(!currentSection.hasClass('active')){
 					isScrolling = true;
 
-					var leavingSection = $('.fp-section.active').index('.fp-section') + 1;
+					var leavingSection = $('.fp-section.active').index('.fp-section') +1;
 					var yMovement = getYmovement(currentSection);
 					var anchorLink  = currentSection.data('anchor');
-					var sectionIndex = currentSection.index('.fp-section') + 1;
+					var sectionIndex = currentSection.index('.fp-section') +1;
 					var activeSlide = currentSection.find('.fp-slide.active');
 
 					if(activeSlide.length){
