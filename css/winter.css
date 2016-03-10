@@ -1,4 +1,4 @@
-.section4{
+.section5{
   position: relative;
   background-image: url(../img/winter-back.jpg);
   background-size: cover;
@@ -7,7 +7,7 @@
   color: black;
   text-align: center;
 }
-.section4 a{
+.section5 a{
   width:100px;
   height:100px;
   display:block;
@@ -20,10 +20,10 @@
   -webkit-transform: scale(0.6);
   -webkit-transition: transform 0.5s;
 }
-.section4 a:hover{
+.section5 a:hover{
   -webkit-transform: scale(0.7);
 }
-.section4 p{
+.section5 p{
   margin-top: 15px;
   font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
   /*font: 15px/1.5 Tahoma,Helvetica,Arial,'宋体',sans-serif;*/
@@ -31,7 +31,7 @@
   text-align: justify;
   line-height:25px;
 }
-.section4 h4{
+.section5 h4{
   font-size: 20px;
   font-weight: bold;
   margin-top: 5px;
