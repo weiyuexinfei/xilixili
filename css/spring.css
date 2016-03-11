@@ -1,11 +1,22 @@
-.section2 { 
-	background: url(../img/bg-spring.png) no-repeat;
+.section2 {
+	position: relative;
+	/*background: url(../img/bg-spring.png) no-repeat;
 	overflow: hidden;
-	background-size: cover;
+	background-size: cover;*/
 }
-
+.section2 .bg{
+	width:100%;
+	height:100%;
+}
+.section2 .content{
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
 .section2 .banner-spring ul li{
-	 
+
 }
 .section2 .banner-spring img{
 	vertical-align: bottom;
@@ -13,7 +24,7 @@
 .section2 .banner1{
 	text-align: left;
 	margin-top: 6%;
-	margin-left: 4%;	
+	margin-left: 4%;
 }
 .section2 .banner2{
 	text-align: left;
@@ -43,12 +54,11 @@
 .section2 .girl-spring{
 	display: none;
 	float: right;
-	position: relative;
-	bottom: -300px;
-	right:430px;
+	position: absolute;
+	right:22%;
+	top:50%;
 	width: 100px;
 	height: 251px;
 	background: url(../img/girl-spring.png) no-repeat;
 	background-size: cover;
 }
-
