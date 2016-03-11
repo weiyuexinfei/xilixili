@@ -31,7 +31,22 @@ $(function(){
 				}, 1500, 'easeOutExpo');
 			}
 			if(index == 5){
-				$('.section5').find('p').fadeIn(2000);
+				//$('.section5').find('div').fadeIn(2000);
+
+				$(".section5 .person").fadeIn(500);
+				$(".section5 .person").animate({
+					left:'50%',
+					opacity:'1'
+				},1500,'easeOutExpo');
+				$(".section5 .speech1").delay(2500).fadeIn(500);
+				$(".section5 .speech2").delay(5000).fadeIn(500);
+				$(".section5 .speech3").delay(7500).fadeIn(500);
+				$(".section5 .person").delay(7000).fadeOut(500);
+				$(".section5 .gloria_wrapper").delay(9000).animate({
+					opacity:'1',
+				},500,function(){
+
+				});
 			}
 		},
 		onLeave: function(index, direction){
@@ -60,7 +75,18 @@ $(function(){
 				}, 1500, 'easeOutExpo');
 			}
 			if(index == '5'){
-				$('.section5').find('p').fadeOut(2000);
+				//$('.section5').find('.gloria_wrapper').fadeOut(2000);
+				$(".section5 .person").fadeOut(500);
+				$(".section5 .speech").fadeOut(500);
+				$(".section5 .person").animate({
+					left:'-200',
+					opacity:'0'
+				},1500,function(){
+					$(".section5 .gloria_wrapper").animate({
+						opacity:'0'
+					},500);
+				});
+
 			}
 		}
 	});
