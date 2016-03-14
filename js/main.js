@@ -17,7 +17,7 @@ $(function(){
 					bottom: '0'
 				}, 1500, 'easeOutExpo');
 				$('.section2').find('.girl-spring').delay(2000).fadeIn(2000);
-				$('.section2').find('.profile-spring img').delay(2000).fadeIn(2000);
+				$('.section2').find('.profile-spring').delay(2000).fadeIn(2000);
 			}
 			if(index == 3){
 				$('.section3').find('p').delay(500).animate({
@@ -70,7 +70,7 @@ $(function(){
 					bottom: '-300'
 				}, 1500, 'easeOutExpo');
 				$('.section2').find('.girl-spring').delay(0).fadeOut(0);
-				$('.section2').find('.profile-spring img').delay(0).fadeOut(0);
+				$('.section2').find('.profile-spring').delay(0).fadeOut(0);
 			}
 			if(index == '3'){
 				$('.section3').find('p').delay(500).animate({
