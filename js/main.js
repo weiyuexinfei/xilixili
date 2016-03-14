@@ -32,15 +32,6 @@ $(function(){
 				$('.section4').find('#p1').delay(500).animate({
 					bottom: '-10'
 				}, 1500, 'easeOutExpo');
-				$('.section4').find('#p2').delay(1000).animate({
-					bottom: '-10'
-				}, 1500, 'easeOutExpo');
-				$('.section4').find('#p3').delay(1500).animate({
-					bottom: '-10'
-				}, 1500, 'easeOutExpo');
-				$('.section4').find('#p4').delay(2000).animate({
-					bottom: '-10'
-				}, 1500, 'easeOutExpo');
 			}
 			if(index == 5){
 				//$('.section5').find('div').fadeIn(2000);
@@ -86,15 +77,6 @@ $(function(){
 			}
 			if(index == '4'){
 				$('.section4').find('#p1').delay(500).animate({
-					bottom: '0'
-				}, 1500, 'easeOutExpo');
-				$('.section4').find('#p2').delay(1000).animate({
-					bottom: '0'
-				}, 1500, 'easeOutExpo');
-				$('.section4').find('#p3').delay(1500).animate({
-					bottom: '0'
-				}, 1500, 'easeOutExpo');
-				$('.section4').find('#p4').delay(2000).animate({
 					bottom: '0'
 				}, 1500, 'easeOutExpo');
 			}
