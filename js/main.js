@@ -22,7 +22,7 @@ $(function(){
 			if(index == 3){
 				$(".section3 .myphoto").delay(0).fadeIn(500);
 				$('.section3').find('p').delay(500).animate({
-					left: '6%'
+					left: '9%'
 				}, 1500, 'easeOutExpo');
 				$('.section3').find('#sum-p2').delay(0).animate({
 					bottom: '0'
