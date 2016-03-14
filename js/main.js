@@ -20,13 +20,10 @@ $(function(){
 				$('.section2').find('.profile-spring').delay(2000).fadeIn(2000);
 			}
 			if(index == 3){
-				$(".section3 .myphoto").delay(0).fadeIn(500);
 				$('.section3').find('p').delay(500).animate({
-					left: '9%'
+					left: '0'
 				}, 1500, 'easeOutExpo');
-				$('.section3').find('#sum-p2').delay(0).animate({
-					bottom: '0'
-				}, 1500, 'easeOutExpo');
+				$(".section3 .myphoto").delay(500).fadeIn(500);
 			}
 			if(index == 4){
 				$('.section4').find('#p1').delay(500).animate({
@@ -76,13 +73,10 @@ $(function(){
 				$('.section2').find('.profile-spring').delay(0).fadeOut(0);
 			}
 			if(index == '3'){
-				$(".section3 .myphoto").fadeOut(500);
-				$('.section3').find('p').delay(0).animate({
+				$('.section3').find('p').delay(500).animate({
 					left: '-120%'
 				}, 1500, 'easeOutExpo');
-				$('.section3').find('#sum-p2').delay(0).animate({
-					bottom: '-100px'
-				}, 1500, 'easeOutExpo');
+				$(".section3 .myphoto").fadeOut(500);
 			}
 			if(index == '4'){
 				$('.section4').find('#p1').delay(500).animate({
