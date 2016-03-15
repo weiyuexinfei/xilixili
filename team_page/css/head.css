@@ -20,6 +20,9 @@
   margin-left: 17%;
 }
 .statement{
-  margin-top: 2%;
-  margin-left: 26%;
+  margin-top: 20%;
+  margin-left: 50%;
+  visibility:hidden;
+  position:relative;
+  top:-300px;
 }
